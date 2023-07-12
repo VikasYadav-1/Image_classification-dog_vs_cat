@@ -14,7 +14,6 @@ The transfer learning model utilizes the pre-trained MobileNetV2 architecture, w
 
 Both models use the same dataset, which consists of labeled images of dogs and cats. This dataset include 12500 dogs and 12500 cats images, we use 10000 for training and 2500 for testing our model from each of them.
 The dataset can be downloaded from the following Kaggle <u>[link](https://www.kaggle.com/datasets/salader/dogs-vs-cats)</u>.
-
 or you can run this command:   
   **`!kaggle datasets download -d salader/dogs-vs-cats`**
 
