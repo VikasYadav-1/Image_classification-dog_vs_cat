@@ -16,13 +16,13 @@ Both models use the same dataset, which consists of labeled images of dogs and c
 The dataset can be downloaded from the following Kaggle <u>[link](https://www.kaggle.com/datasets/salader/dogs-vs-cats)</u>.
 
 or you can run this command:   
-  `**!kaggle datasets download -d salader/dogs-vs-cats**`
+  **`!kaggle datasets download -d salader/dogs-vs-cats`**
 
-`Unzip the dataset using the following code:`
-  `import zipfile`
-  `zip_ref = zipfile.ZipFile('dogs-vs-cats.zip', 'r')`
-  `zip_ref.extractall('dataset')`
-  `zip_ref.close()`
+Unzip the dataset using the following code:
+**`import zipfile
+zip_ref = zipfile.ZipFile('dogs-vs-cats.zip', 'r')
+zip_ref.extractall('dataset')
+zip_ref.close()`**
 
   
 ## Results
